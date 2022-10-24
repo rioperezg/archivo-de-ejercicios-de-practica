@@ -15,9 +15,9 @@ while True:
 #parte 2:proponer al usuario adivinar el numero jugando en un bucle hasta que de con el numero
 print("Intente encontrar el numero a adivinar")
 while True:
-      intento = input("Introduzca un numero entre 0 y 99: ")
 
       while True:
+            intento = input("introduzca un numero entre 0 y 99: ")
             try:
                 intento = int(intento)
             except:
