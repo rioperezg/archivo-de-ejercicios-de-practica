@@ -14,4 +14,15 @@ print("lista[2::7]=", lista[2::7])
 #escritura de un miembro de la lista
 lista[5] = "r"
 print(lista)
+lista[13:15] = "fg"
+print("lista = ", lista)
+lista[5] = "n"
+lista[10] = "s"
+lista[11] = "h"
+lista[12] = "i"
+lista[13] = "t"
+
+
+
+
 
