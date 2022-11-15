@@ -21,8 +21,29 @@ lista[10] = "s"
 lista[11] = "h"
 lista[12] = "i"
 lista[13] = "t"
-
-
+#eliminar un elemento de la lista
+print(lista)
+lista.pop()
+print(lista)
+lista.remove("m")
+lista.remove("g")
+print(lista)
+while " " in lista:
+    lista.remove(" ")
+print(lista)
+while "o" and "n" in lista:
+    lista.remove("o")
+    lista.remove("n")
+print(lista)
+#agregar un elemento al final de la lista
+lista.append("!")
+print(lista)
+#agregar un elemento a la lista donde queramos
+lista.insert(4, "o")
+lista.insert(5, "n")
+lista.insert(6, " ")
+lista.insert(9, " ")
+print(lista)
 
 
 
