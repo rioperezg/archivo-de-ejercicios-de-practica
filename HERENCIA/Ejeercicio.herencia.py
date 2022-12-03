@@ -11,7 +11,7 @@ class Punto:
     def distancia(self, other=None):
         if other is None:
             other = (0, 0, 0)
-        return ((self.x-other.x)**2+(self.y-other.y)**2+(self.z-other.z)**2)**(1/2)
+        return ((self.x-other.x)**2 + (self.y-other.y)**2 + (self.z-other.z)**2) ** (1 / 2)
 P = Punto(1, 2, 3)
 P.mostrar()
 print("|P|=", P.modulo())
